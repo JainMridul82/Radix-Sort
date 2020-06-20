@@ -67,7 +67,7 @@ void RadixSort(int A[],int n){
     free(aux);
 }
 int main(){
-    int A[]={9,8,7,6,5,4,3,2,1,-999};
+    int A[]={9,8,7,6,5,4,3,2,1}; // Does not process negative numbers
     int n=sizeof(A)/sizeof(int);
     RadixSort(A,n);
     Display(A,n);
